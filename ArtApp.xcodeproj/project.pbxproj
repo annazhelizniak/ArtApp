@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C21CADC148105EB7CF64115 /* Pods_ArtAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7082E82F4D2E972956C1D /* Pods_ArtAppTests.framework */; };
+		2BA32DB44172E2941DA85A61 /* Pods_ArtApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6DEB76A3ADBC2EFCC77017 /* Pods_ArtApp.framework */; };
+		843CC04E2A49D68100E87827 /* StyleTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CC04D2A49D68000E87827 /* StyleTransfer.swift */; };
+		84AA709F2A48CFEB00215D0B /* DetectStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */; };
+		84AD1EDF2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */; };
+		84AD1EE12A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */; };
+		84AD1EE32A4A2168004CA17C /* StyleDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1EE22A4A2168004CA17C /* StyleDetection.swift */; };
+		84B0770C2A4AD804005ED446 /* style1.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770B2A4AD803005ED446 /* style1.mlkitmodel */; };
+		84B0770E2A4ADAFB005ED446 /* TransferStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */; };
+		84BA0DD02A4B0BE20099E8B2 /* style2.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */; };
+		84BA0DD22A4B0BEC0099E8B2 /* style3.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */; };
+		84BA0DD42A4B0BF40099E8B2 /* style4.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */; };
+		84BA0DD62A4B18640099E8B2 /* ArtClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */; };
 		84C7434A2A42513F00A256A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C743492A42513F00A256A8 /* AppDelegate.swift */; };
 		84C7434C2A42513F00A256A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7434B2A42513F00A256A8 /* SceneDelegate.swift */; };
 		84C7434E2A42513F00A256A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7434D2A42513F00A256A8 /* ViewController.swift */; };
@@ -16,6 +29,7 @@
 		84C743612A42514300A256A8 /* ArtAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C743602A42514300A256A8 /* ArtAppTests.swift */; };
 		84C7436B2A42514300A256A8 /* ArtAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7436A2A42514300A256A8 /* ArtAppUITests.swift */; };
 		84C7436D2A42514300A256A8 /* ArtAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7436C2A42514300A256A8 /* ArtAppUITestsLaunchTests.swift */; };
+		A755D508FC5891721B21DA7E /* Pods_ArtApp_ArtAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B18C7A0D7522831A0833DF5 /* Pods_ArtApp_ArtAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026A541D6AB4D6E53E1CE90C /* Pods-ArtApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtApp.release.xcconfig"; path = "Target Support Files/Pods-ArtApp/Pods-ArtApp.release.xcconfig"; sourceTree = "<group>"; };
+		1B18C7A0D7522831A0833DF5 /* Pods_ArtApp_ArtAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtApp_ArtAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7082E82F4D2E972956C1D /* Pods_ArtAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDBF526FDD35B6297F64126 /* Pods-ArtAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtAppTests.release.xcconfig"; path = "Target Support Files/Pods-ArtAppTests/Pods-ArtAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7748E3B1841BF03847D48897 /* Pods-ArtApp-ArtAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtApp-ArtAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		843CC04D2A49D68000E87827 /* StyleTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransfer.swift; sourceTree = "<group>"; };
+		84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectStyleController.swift; sourceTree = "<group>"; };
+		84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite"; sourceTree = "<group>"; };
+		84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite"; sourceTree = "<group>"; };
+		84AD1EE22A4A2168004CA17C /* StyleDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDetection.swift; sourceTree = "<group>"; };
+		84B0770B2A4AD803005ED446 /* style1.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style1.mlkitmodel; sourceTree = "<group>"; };
+		84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferStyleController.swift; sourceTree = "<group>"; };
+		84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style2.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style3.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style4.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ArtClassifier.mlmodel; sourceTree = "<group>"; };
 		84C743462A42513F00A256A8 /* ArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C743492A42513F00A256A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C7434B2A42513F00A256A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,10 @@
 		84C743662A42514300A256A8 /* ArtAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C7436A2A42514300A256A8 /* ArtAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtAppUITests.swift; sourceTree = "<group>"; };
 		84C7436C2A42514300A256A8 /* ArtAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB6DEB76A3ADBC2EFCC77017 /* Pods_ArtApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BD28286D5D43E831A5AF7B /* Pods-ArtApp-ArtAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtApp-ArtAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E664CB718620003DD3FF9B1B /* Pods-ArtApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtApp.debug.xcconfig"; path = "Target Support Files/Pods-ArtApp/Pods-ArtApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF45E30B36D06DB577C28D0 /* Pods-ArtAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtAppTests/Pods-ArtAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA32DB44172E2941DA85A61 /* Pods_ArtApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C21CADC148105EB7CF64115 /* Pods_ArtAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A755D508FC5891721B21DA7E /* Pods_ArtApp_ArtAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4706BDB532F7FD41FB2019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6DEB76A3ADBC2EFCC77017 /* Pods_ArtApp.framework */,
+				1B18C7A0D7522831A0833DF5 /* Pods_ArtApp_ArtAppUITests.framework */,
+				33D7082E82F4D2E972956C1D /* Pods_ArtAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84C7433D2A42513F00A256A8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +130,8 @@
 				84C7435F2A42514300A256A8 /* ArtAppTests */,
 				84C743692A42514300A256A8 /* ArtAppUITests */,
 				84C743472A42513F00A256A8 /* Products */,
+				FBE5272E8C704ADE6C082ACD /* Pods */,
+				2E4706BDB532F7FD41FB2019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +148,13 @@
 		84C743482A42513F00A256A8 /* ArtApp */ = {
 			isa = PBXGroup;
 			children = (
+				84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */,
+				84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */,
+				84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */,
+				84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */,
+				84B0770B2A4AD803005ED446 /* style1.mlkitmodel */,
+				84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */,
+				84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */,
 				84C743492A42513F00A256A8 /* AppDelegate.swift */,
 				84C7434B2A42513F00A256A8 /* SceneDelegate.swift */,
 				84C7434D2A42513F00A256A8 /* ViewController.swift */,
@@ -106,6 +162,10 @@
 				84C743522A42514300A256A8 /* Assets.xcassets */,
 				84C743542A42514300A256A8 /* LaunchScreen.storyboard */,
 				84C743572A42514300A256A8 /* Info.plist */,
+				84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */,
+				843CC04D2A49D68000E87827 /* StyleTransfer.swift */,
+				84AD1EE22A4A2168004CA17C /* StyleDetection.swift */,
+				84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */,
 			);
 			path = ArtApp;
 			sourceTree = "<group>";
@@ -127,6 +187,19 @@
 			path = ArtAppUITests;
 			sourceTree = "<group>";
 		};
+		FBE5272E8C704ADE6C082ACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E664CB718620003DD3FF9B1B /* Pods-ArtApp.debug.xcconfig */,
+				026A541D6AB4D6E53E1CE90C /* Pods-ArtApp.release.xcconfig */,
+				7748E3B1841BF03847D48897 /* Pods-ArtApp-ArtAppUITests.debug.xcconfig */,
+				B2BD28286D5D43E831A5AF7B /* Pods-ArtApp-ArtAppUITests.release.xcconfig */,
+				FCF45E30B36D06DB577C28D0 /* Pods-ArtAppTests.debug.xcconfig */,
+				5DDBF526FDD35B6297F64126 /* Pods-ArtAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C743702A42514300A256A8 /* Build configuration list for PBXNativeTarget "ArtApp" */;
 			buildPhases = (
+				3017416B9329BF2B95CCA8A4 /* [CP] Check Pods Manifest.lock */,
 				84C743422A42513F00A256A8 /* Sources */,
 				84C743432A42513F00A256A8 /* Frameworks */,
 				84C743442A42513F00A256A8 /* Resources */,
+				505EBA91AFD61EFA938D6D69 /* [CP] Embed Pods Frameworks */,
+				8E66D7261648A6759BA606D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C743732A42514300A256A8 /* Build configuration list for PBXNativeTarget "ArtAppTests" */;
 			buildPhases = (
+				FF822A3E36637523398DEC69 /* [CP] Check Pods Manifest.lock */,
 				84C743582A42514300A256A8 /* Sources */,
 				84C743592A42514300A256A8 /* Frameworks */,
 				84C7435A2A42514300A256A8 /* Resources */,
@@ -169,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C743762A42514300A256A8 /* Build configuration list for PBXNativeTarget "ArtAppUITests" */;
 			buildPhases = (
+				1E7A974996244F605346AE62 /* [CP] Check Pods Manifest.lock */,
 				84C743622A42514300A256A8 /* Sources */,
 				84C743632A42514300A256A8 /* Frameworks */,
 				84C743642A42514300A256A8 /* Resources */,
+				A45A69C7C5FECA2C7D5CB6A0 /* [CP] Embed Pods Frameworks */,
+				92667A709A9036BD440CDA91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +295,8 @@
 				Base,
 			);
 			mainGroup = 84C7433D2A42513F00A256A8;
+			packageReferences = (
+			);
 			productRefGroup = 84C743472A42513F00A256A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD1EE12A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite in Resources */,
 				84C743562A42514300A256A8 /* LaunchScreen.storyboard in Resources */,
 				84C743532A42514300A256A8 /* Assets.xcassets in Resources */,
+				84AD1EDF2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite in Resources */,
 				84C743512A42513F00A256A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +337,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E7A974996244F605346AE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtApp-ArtAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3017416B9329BF2B95CCA8A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505EBA91AFD61EFA938D6D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E66D7261648A6759BA606D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtApp/Pods-ArtApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92667A709A9036BD440CDA91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45A69C7C5FECA2C7D5CB6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF822A3E36637523398DEC69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84C743422A42513F00A256A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843CC04E2A49D68100E87827 /* StyleTransfer.swift in Sources */,
+				84BA0DD22A4B0BEC0099E8B2 /* style3.mlkitmodel in Sources */,
+				84AA709F2A48CFEB00215D0B /* DetectStyleController.swift in Sources */,
+				84B0770E2A4ADAFB005ED446 /* TransferStyleController.swift in Sources */,
+				84B0770C2A4AD804005ED446 /* style1.mlkitmodel in Sources */,
+				84BA0DD62A4B18640099E8B2 /* ArtClassifier.mlmodel in Sources */,
 				84C7434E2A42513F00A256A8 /* ViewController.swift in Sources */,
+				84BA0DD42A4B0BF40099E8B2 /* style4.mlkitmodel in Sources */,
 				84C7434A2A42513F00A256A8 /* AppDelegate.swift in Sources */,
+				84BA0DD02A4B0BE20099E8B2 /* style2.mlkitmodel in Sources */,
 				84C7434C2A42513F00A256A8 /* SceneDelegate.swift in Sources */,
+				84AD1EE32A4A2168004CA17C /* StyleDetection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +662,7 @@
 		};
 		84C743712A42514300A256A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E664CB718620003DD3FF9B1B /* Pods-ArtApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +691,7 @@
 		};
 		84C743722A42514300A256A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026A541D6AB4D6E53E1CE90C /* Pods-ArtApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +720,7 @@
 		};
 		84C743742A42514300A256A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF45E30B36D06DB577C28D0 /* Pods-ArtAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +741,7 @@
 		};
 		84C743752A42514300A256A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDBF526FDD35B6297F64126 /* Pods-ArtAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +762,7 @@
 		};
 		84C743772A42514300A256A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7748E3B1841BF03847D48897 /* Pods-ArtApp-ArtAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +781,7 @@
 		};
 		84C743782A42514300A256A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BD28286D5D43E831A5AF7B /* Pods-ArtApp-ArtAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
