@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ArtApp
 //
-//  Created by Anna on 21.06.2023.
+//  Created by Anna on 14.06.2023.
 //
 
 import UIKit

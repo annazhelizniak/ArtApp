@@ -9,17 +9,27 @@
 /* Begin PBXBuildFile section */
 		1C21CADC148105EB7CF64115 /* Pods_ArtAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7082E82F4D2E972956C1D /* Pods_ArtAppTests.framework */; };
 		2BA32DB44172E2941DA85A61 /* Pods_ArtApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6DEB76A3ADBC2EFCC77017 /* Pods_ArtApp.framework */; };
+		841A7B062A4C054F00A00DC4 /* japanism.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 841A7B052A4C054F00A00DC4 /* japanism.mlmodel */; };
+		841A7B082A4C11A400A00DC4 /* ArtClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 841A7B072A4C11A400A00DC4 /* ArtClassifier2.mlmodel */; };
 		843CC04E2A49D68100E87827 /* StyleTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CC04D2A49D68000E87827 /* StyleTransfer.swift */; };
+		84445A382A4B6A3700DFFBA6 /* cubism.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84445A372A4B6A3700DFFBA6 /* cubism.mlmodel */; };
+		84445A3A2A4B6A4200DFFBA6 /* neobaroko.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84445A392A4B6A4200DFFBA6 /* neobaroko.mlmodel */; };
+		844B82C02A4C2661001145C4 /* popArt.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 844B82BF2A4C2660001145C4 /* popArt.mlmodel */; };
 		84AA709F2A48CFEB00215D0B /* DetectStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */; };
+		84ACA0AA2A4B6E5100084F40 /* ArtStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */; };
 		84AD1EDF2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */; };
 		84AD1EE12A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */; };
 		84AD1EE32A4A2168004CA17C /* StyleDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1EE22A4A2168004CA17C /* StyleDetection.swift */; };
-		84B0770C2A4AD804005ED446 /* style1.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770B2A4AD803005ED446 /* style1.mlkitmodel */; };
+		84B0770C2A4AD804005ED446 /* futurism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */; };
 		84B0770E2A4ADAFB005ED446 /* TransferStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */; };
-		84BA0DD02A4B0BE20099E8B2 /* style2.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */; };
-		84BA0DD22A4B0BEC0099E8B2 /* style3.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */; };
-		84BA0DD42A4B0BF40099E8B2 /* style4.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */; };
-		84BA0DD62A4B18640099E8B2 /* ArtClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */; };
+		84BA0DD22A4B0BEC0099E8B2 /* surrealism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD12A4B0BEC0099E8B2 /* surrealism.mlkitmodel */; };
+		84BA0DD42A4B0BF40099E8B2 /* academicism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD32A4B0BF40099E8B2 /* academicism.mlkitmodel */; };
+		84BA0DD82A4B2A1A0099E8B2 /* impressionism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD72A4B2A1A0099E8B2 /* impressionism.mlkitmodel */; };
+		84BA0DDA2A4B2CDD0099E8B2 /* picasso.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DD92A4B2CDC0099E8B2 /* picasso.mlkitmodel */; };
+		84BA0DDC2A4B30450099E8B2 /* magic_realism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DDB2A4B30450099E8B2 /* magic_realism.mlkitmodel */; };
+		84BA0DDE2A4B31990099E8B2 /* naturalism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DDD2A4B31990099E8B2 /* naturalism.mlkitmodel */; };
+		84BA0DE02A4B31A10099E8B2 /* expressionism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DDF2A4B31A10099E8B2 /* expressionism.mlkitmodel */; };
+		84BA0DE62A4B31BA0099E8B2 /* vangog.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84BA0DE52A4B31BA0099E8B2 /* vangog.mlkitmodel */; };
 		84C7434A2A42513F00A256A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C743492A42513F00A256A8 /* AppDelegate.swift */; };
 		84C7434C2A42513F00A256A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7434B2A42513F00A256A8 /* SceneDelegate.swift */; };
 		84C7434E2A42513F00A256A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7434D2A42513F00A256A8 /* ViewController.swift */; };
@@ -55,17 +65,27 @@
 		33D7082E82F4D2E972956C1D /* Pods_ArtAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDBF526FDD35B6297F64126 /* Pods-ArtAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtAppTests.release.xcconfig"; path = "Target Support Files/Pods-ArtAppTests/Pods-ArtAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7748E3B1841BF03847D48897 /* Pods-ArtApp-ArtAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtApp-ArtAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArtApp-ArtAppUITests/Pods-ArtApp-ArtAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		841A7B052A4C054F00A00DC4 /* japanism.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = japanism.mlmodel; sourceTree = SOURCE_ROOT; };
+		841A7B072A4C11A400A00DC4 /* ArtClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ArtClassifier2.mlmodel; sourceTree = "<group>"; };
 		843CC04D2A49D68000E87827 /* StyleTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransfer.swift; sourceTree = "<group>"; };
+		84445A372A4B6A3700DFFBA6 /* cubism.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cubism.mlmodel; sourceTree = "<group>"; };
+		84445A392A4B6A4200DFFBA6 /* neobaroko.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = neobaroko.mlmodel; sourceTree = "<group>"; };
+		844B82BF2A4C2660001145C4 /* popArt.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = popArt.mlmodel; sourceTree = "<group>"; };
 		84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectStyleController.swift; sourceTree = "<group>"; };
+		84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtStyles.swift; sourceTree = "<group>"; };
 		84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite"; sourceTree = "<group>"; };
 		84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite"; sourceTree = "<group>"; };
 		84AD1EE22A4A2168004CA17C /* StyleDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDetection.swift; sourceTree = "<group>"; };
-		84B0770B2A4AD803005ED446 /* style1.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style1.mlkitmodel; sourceTree = "<group>"; };
+		84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = futurism.mlkitmodel; sourceTree = "<group>"; };
 		84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferStyleController.swift; sourceTree = "<group>"; };
-		84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style2.mlkitmodel; sourceTree = "<group>"; };
-		84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style3.mlkitmodel; sourceTree = "<group>"; };
-		84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = style4.mlkitmodel; sourceTree = "<group>"; };
-		84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ArtClassifier.mlmodel; sourceTree = "<group>"; };
+		84BA0DD12A4B0BEC0099E8B2 /* surrealism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = surrealism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD32A4B0BF40099E8B2 /* academicism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = academicism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD72A4B2A1A0099E8B2 /* impressionism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = impressionism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DD92A4B2CDC0099E8B2 /* picasso.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = picasso.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DDB2A4B30450099E8B2 /* magic_realism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = magic_realism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DDD2A4B31990099E8B2 /* naturalism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = naturalism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DDF2A4B31A10099E8B2 /* expressionism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = expressionism.mlkitmodel; sourceTree = "<group>"; };
+		84BA0DE52A4B31BA0099E8B2 /* vangog.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = vangog.mlkitmodel; sourceTree = "<group>"; };
 		84C743462A42513F00A256A8 /* ArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C743492A42513F00A256A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C7434B2A42513F00A256A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,13 +168,23 @@
 		84C743482A42513F00A256A8 /* ArtApp */ = {
 			isa = PBXGroup;
 			children = (
-				84BA0DD52A4B18630099E8B2 /* ArtClassifier.mlmodel */,
-				84BA0DD32A4B0BF40099E8B2 /* style4.mlkitmodel */,
-				84BA0DD12A4B0BEC0099E8B2 /* style3.mlkitmodel */,
-				84BA0DCF2A4B0BE10099E8B2 /* style2.mlkitmodel */,
-				84B0770B2A4AD803005ED446 /* style1.mlkitmodel */,
+				844B82BF2A4C2660001145C4 /* popArt.mlmodel */,
+				841A7B052A4C054F00A00DC4 /* japanism.mlmodel */,
+				84445A392A4B6A4200DFFBA6 /* neobaroko.mlmodel */,
+				84445A372A4B6A3700DFFBA6 /* cubism.mlmodel */,
+				84BA0DE52A4B31BA0099E8B2 /* vangog.mlkitmodel */,
+				841A7B072A4C11A400A00DC4 /* ArtClassifier2.mlmodel */,
+				84BA0DDF2A4B31A10099E8B2 /* expressionism.mlkitmodel */,
+				84BA0DDD2A4B31990099E8B2 /* naturalism.mlkitmodel */,
+				84BA0DDB2A4B30450099E8B2 /* magic_realism.mlkitmodel */,
+				84BA0DD92A4B2CDC0099E8B2 /* picasso.mlkitmodel */,
+				84BA0DD72A4B2A1A0099E8B2 /* impressionism.mlkitmodel */,
+				84BA0DD32A4B0BF40099E8B2 /* academicism.mlkitmodel */,
+				84BA0DD12A4B0BEC0099E8B2 /* surrealism.mlkitmodel */,
+				84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */,
 				84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */,
 				84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */,
+				84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */,
 				84C743492A42513F00A256A8 /* AppDelegate.swift */,
 				84C7434B2A42513F00A256A8 /* SceneDelegate.swift */,
 				84C7434D2A42513F00A256A8 /* ViewController.swift */,
@@ -479,16 +509,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA0DD82A4B2A1A0099E8B2 /* impressionism.mlkitmodel in Sources */,
+				84445A382A4B6A3700DFFBA6 /* cubism.mlmodel in Sources */,
 				843CC04E2A49D68100E87827 /* StyleTransfer.swift in Sources */,
-				84BA0DD22A4B0BEC0099E8B2 /* style3.mlkitmodel in Sources */,
+				84BA0DDA2A4B2CDD0099E8B2 /* picasso.mlkitmodel in Sources */,
+				84BA0DD22A4B0BEC0099E8B2 /* surrealism.mlkitmodel in Sources */,
 				84AA709F2A48CFEB00215D0B /* DetectStyleController.swift in Sources */,
+				84BA0DDE2A4B31990099E8B2 /* naturalism.mlkitmodel in Sources */,
 				84B0770E2A4ADAFB005ED446 /* TransferStyleController.swift in Sources */,
-				84B0770C2A4AD804005ED446 /* style1.mlkitmodel in Sources */,
-				84BA0DD62A4B18640099E8B2 /* ArtClassifier.mlmodel in Sources */,
+				84B0770C2A4AD804005ED446 /* futurism.mlkitmodel in Sources */,
+				84445A3A2A4B6A4200DFFBA6 /* neobaroko.mlmodel in Sources */,
+				841A7B082A4C11A400A00DC4 /* ArtClassifier2.mlmodel in Sources */,
+				84BA0DE02A4B31A10099E8B2 /* expressionism.mlkitmodel in Sources */,
+				844B82C02A4C2661001145C4 /* popArt.mlmodel in Sources */,
 				84C7434E2A42513F00A256A8 /* ViewController.swift in Sources */,
-				84BA0DD42A4B0BF40099E8B2 /* style4.mlkitmodel in Sources */,
+				84BA0DDC2A4B30450099E8B2 /* magic_realism.mlkitmodel in Sources */,
+				841A7B062A4C054F00A00DC4 /* japanism.mlmodel in Sources */,
+				84ACA0AA2A4B6E5100084F40 /* ArtStyles.swift in Sources */,
+				84BA0DD42A4B0BF40099E8B2 /* academicism.mlkitmodel in Sources */,
+				84BA0DE62A4B31BA0099E8B2 /* vangog.mlkitmodel in Sources */,
 				84C7434A2A42513F00A256A8 /* AppDelegate.swift in Sources */,
-				84BA0DD02A4B0BE20099E8B2 /* style2.mlkitmodel in Sources */,
 				84C7434C2A42513F00A256A8 /* SceneDelegate.swift in Sources */,
 				84AD1EE32A4A2168004CA17C /* StyleDetection.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  TransferStyleController.swift
 //  ArtApp
 //
-//  Created by Anna on 27.06.2023.
+//  Created by Anna on 16.06.2023.
 //
 
 import Foundation
@@ -10,7 +10,7 @@ import UIKit
 
 
 class TransferStyleController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
-    private var selectedStyle:String = "style 1"
+    private var selectedStyle:String = "futurism"
     @IBOutlet weak var pickerView: UIPickerView!
     
     @IBOutlet weak var inputImage: UIImageView!{
@@ -26,7 +26,27 @@ class TransferStyleController: UIViewController, UIPickerViewDelegate, UIPickerV
         }
     }
     
+    
+    @IBAction func savePicture(_ sender: Any) {
+        guard let image = outputImage.image else {
+            print("No image found!")
+            return
+        }
+        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+    }
+    
 
+    @IBAction func share(_ sender: Any) {
+        guard let image = outputImage.image else {
+            print("No image found!")
+            return
+        }
+
+        let activityViewController = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        present(activityViewController, animated: true, completion: nil)
+    }
+    
+    
     @IBAction func choosePhoto(_ sender: Any) {
         let picker = UIImagePickerController()
         picker.delegate = self
@@ -35,16 +55,34 @@ class TransferStyleController: UIViewController, UIPickerViewDelegate, UIPickerV
     }
     
     
+    @IBAction func takePhoto(_ sender: Any) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            picker.sourceType = .camera
+        } else {
+            print("Camera not available")
+            return
+        }
+        present(picker, animated: true)
+    }
+    
+    
     @IBAction func submitAction(_ sender: Any) {
+        print("In submitAction")
         let styleTransferProcessor = StyleTransferProcessor(style: selectedStyle)
         guard let inputImage = self.inputImage.image else {
             print("No input image")
             return
         }
         styleTransferProcessor.stylize(image: inputImage) { [weak self] stylizedImage in
-            self?.outputImage.image = stylizedImage
+            DispatchQueue.main.async {
+                self?.outputImage.image = nil
+                self?.outputImage.image = stylizedImage
+            }
         }
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +90,7 @@ class TransferStyleController: UIViewController, UIPickerViewDelegate, UIPickerV
         self.pickerView.dataSource = self
     }
     
-    let pickerData = ["style 1", "style 2", "style 3", "style 4", "style 5"]
+    let pickerData = ["futurism", "impressionism", "surrealism", "academicism", "magic realism", "japanism", "popart", "naturalism","expressionism", "cubism","neobaroko","picasso", "vangog"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -83,5 +121,6 @@ extension TransferStyleController: UIImagePickerControllerDelegate, UINavigation
         picker.dismiss(animated: true)
 
         self.inputImage.image = image
+        self.outputImage.image = UIImage(named: "DefaultInput")
     }
 }
