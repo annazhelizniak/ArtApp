@@ -17,8 +17,6 @@
 		844B82C02A4C2661001145C4 /* popArt.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 844B82BF2A4C2660001145C4 /* popArt.mlmodel */; };
 		84AA709F2A48CFEB00215D0B /* DetectStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */; };
 		84ACA0AA2A4B6E5100084F40 /* ArtStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */; };
-		84AD1EDF2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */; };
-		84AD1EE12A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */; };
 		84AD1EE32A4A2168004CA17C /* StyleDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1EE22A4A2168004CA17C /* StyleDetection.swift */; };
 		84B0770C2A4AD804005ED446 /* futurism.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */; };
 		84B0770E2A4ADAFB005ED446 /* TransferStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */; };
@@ -73,8 +71,6 @@
 		844B82BF2A4C2660001145C4 /* popArt.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = popArt.mlmodel; sourceTree = "<group>"; };
 		84AA709E2A48CFEB00215D0B /* DetectStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectStyleController.swift; sourceTree = "<group>"; };
 		84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtStyles.swift; sourceTree = "<group>"; };
-		84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite"; sourceTree = "<group>"; };
-		84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite"; sourceTree = "<group>"; };
 		84AD1EE22A4A2168004CA17C /* StyleDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDetection.swift; sourceTree = "<group>"; };
 		84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = futurism.mlkitmodel; sourceTree = "<group>"; };
 		84B0770D2A4ADAFB005ED446 /* TransferStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferStyleController.swift; sourceTree = "<group>"; };
@@ -182,8 +178,6 @@
 				84BA0DD32A4B0BF40099E8B2 /* academicism.mlkitmodel */,
 				84BA0DD12A4B0BEC0099E8B2 /* surrealism.mlkitmodel */,
 				84B0770B2A4AD803005ED446 /* futurism.mlkitmodel */,
-				84AD1EE02A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite */,
-				84AD1EDE2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite */,
 				84ACA0A92A4B6E5000084F40 /* ArtStyles.swift */,
 				84C743492A42513F00A256A8 /* AppDelegate.swift */,
 				84C7434B2A42513F00A256A8 /* SceneDelegate.swift */,
@@ -343,10 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AD1EE12A4A2131004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_transfer_1.tflite in Resources */,
 				84C743562A42514300A256A8 /* LaunchScreen.storyboard in Resources */,
 				84C743532A42514300A256A8 /* Assets.xcassets in Resources */,
-				84AD1EDF2A4A2122004CA17C /* magenta_arbitrary-image-stylization-v1-256_fp16_prediction_1.tflite in Resources */,
 				84C743512A42513F00A256A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
